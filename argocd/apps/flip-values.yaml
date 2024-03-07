@@ -3,7 +3,8 @@ project: flip-ip
 namespace: flip
 values: |-
   fullnameOverride: flip-app
-  image: daviinaa/flip-ip:app-23
+  image: 
+    repository: daviinaa/flip-ip:app-23
   namespace: flip
   containerPort: 3000
   managedidentity:

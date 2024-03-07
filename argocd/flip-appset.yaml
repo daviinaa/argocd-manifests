@@ -7,7 +7,7 @@ metadata:
 spec:
   generators:
   - git:
-      repoURL: https://github.com/daviinaa/reverse-deel.git
+      repoURL: https://github.com/daviinaa/argocd-manifests.git
       revision: main
       files:
       - path: "argocd/apps/"
