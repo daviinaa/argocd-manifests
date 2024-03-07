@@ -3,8 +3,7 @@ project: flip-ip
 namespace: flip
 values: |-
   fullnameOverride: flip-app
-  image:
-    repository:
+  image: 
   namespace: flip
   containerPort: 3000
   managedidentity:
