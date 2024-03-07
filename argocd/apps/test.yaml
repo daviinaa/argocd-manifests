@@ -1,0 +1,17 @@
+name: test-app
+project: flip-ip
+namespace: flip-test
+values: |-
+  fullnameOverride: test-app
+  image: 
+    repository: daviinaa/flip-ip:app-28
+  namespace: flip
+  containerPort: 3000
+  managedidentity:
+      enabled: true
+  autoscaling:
+      enabled: true
+  lProbe:
+      enabled: false
+  rProbe:
+      enabled: false
