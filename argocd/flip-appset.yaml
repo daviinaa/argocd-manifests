@@ -24,7 +24,7 @@ spec:
           values: |-
             {{values}}
       destination:
-        name: gke_double-lore-410115_africa-south1_flip-ip
+        name: gke_double-lore-410115_us-central1-c_new-flip
         namespace: '{{namespace}}'
       
       syncPolicy:
