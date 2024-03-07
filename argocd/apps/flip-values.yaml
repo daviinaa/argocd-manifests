@@ -12,7 +12,7 @@ values: |-
   autoscaling:
       enabled: true
   ingress:
-    enabled: false
+    enabled: true
   lProbe:
       enabled: false
   rProbe:
