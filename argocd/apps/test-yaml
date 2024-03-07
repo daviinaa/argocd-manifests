@@ -1,12 +1,12 @@
-name: flip-app
+name: test
 project: flip-ip
-namespace: flip
+namespace: test-app
 values: |-
-  fullnameOverride: flip-app
+  fullnameOverride: test
   image: 
-    repository: daviinaa/flip-ip:app-28
+    repository: nginx
   namespace: flip
-  containerPort: 3000
+  containerPort: 80
   managedidentity:
       enabled: true
   autoscaling:
